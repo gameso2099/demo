@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/screen.css">
+    <link rel="stylesheet" href="public/css/style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <header>
+        <!-- HEADER TOP -->
+        <div class="header-1 d-none d-lg-block py-1">
+            <div class="container-sm">
+                <div class="row">
+                  <!-- TOP LEFT -->
+                  <div class="col-lg-8">
+                    <div class="header-1-left">
+                      <p class="address mb-0">						
+                        <a href="mailto:example@gmail.com"><i class="fas fa-envelope-square"></i> example@gmail.com</a>
+          
+                        <span><i class="fa fa-map-marker pe-2 ps-3"></i>24/5, 1st Floor, Kurigram</span>
+          
+                        <a href="tel:+ (1800) 456 7890"><i class="fa fa-phone pe-2 ps-3"></i>+ (1800) 456 7890</a> 
+                      </p>
+                    </div>
+                  </div>
+                  <!-- TOP RIGHT -->
+                  <div class="col-lg-4">
+                    <div class="header-1-right">
+                      <ul class="d-flex mb-0 justify-content-end">
+                        <li><a href="#"></a><i class="fab fa-facebook-f pe-3"></i></a></li>
+                        <li><a href=#" title="Twitter" target="_blank"><i class="fab fa-twitter pe-3"></i></a></li>
+                        <li><a href="#" title="Pinterest" target="_blank"><i class="fab fa-pinterest-square pe-3"></i></a></li>
+                        <li><a href="#" title="Linkedin" target="_blank"><i class="fab fa-linkedin-in pe-3"></i></a></li>		
+                      </ul> 
+                    </div>						
+                  </div>	
+                </div>
+            </div>
+        </div>
+        <div class="header1-mb py-4 text-center d-lg-none">
+            <a href="#"><img src="public/img/logo1.png" alt=""></a>
+        </div>
+        <!-- HEADER NAV -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 d-lg-none">
+            <div class="container">
+              <a class="navbar-brand" href="#">Techno</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse bg-white" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Company <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          IT Solution <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Blog <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contact <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg py-4 d-none d-lg-block">
+            <div class="container">
+              <a class="navbar-brand ds" href="#"><img src="public/img/logo1.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto ds">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Company <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          IT Solution <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Blog <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contact <span><i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Homepage main</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Two</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Three</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Four</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Five</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Six</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Seven</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Eight</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Nine</a></li>
+                          <li><a class="dropdown-item" href="#">Homepage Ten</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page One</a></li>
+                          <li><a class="dropdown-item" href="#">Landing page Two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <i class="fas fa-search search"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hidden-arrow"
+                        href="#"
+                        id="navbarDropdownMenuLink"
+                        role="button"
+                        data-mdb-toggle="dropdown"
+                        aria-expanded="false">
+                            <i class="fas fa-shopping-cart search"></i><span class="badge bg-dark position-relative">0</span>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <div class="slider-main">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="true">
+            <div class="carousel-inner ct1">
+              <div class="carousel-item active banner-img"
+              style="background-image: url(./public/img/sld1.jpg);"
+              >
+                <div class="banner-caption">
+                   <h5>Total IT Solution Here</h5>
+                   <h1>Best IT solution agency</h1>
+                    <h1>for your Business</h1>
+                    <button class="btn btn1">How IT Work</button>
+                    <button class="btn btn2 ms-4">IT Services</button>
+                </div>
+              </div>
+              <div class="carousel-item banner-img"
+              style="background-image: url(./public/img/1.png);">
+                <div class="banner-caption">
+                    <h5>Total IT Solution Here</h5>
+                    <h1>Best IT solution agency</h1>
+                     <h1>for your Business</h1>
+                     <button class="btn btn1">How IT Work</button>
+                     <button class="btn btn2 ms-4">IT Services</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev content1 banner-control" id="tranL" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon border border-1 border-white rounded-circle p-4" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next content1 banner-control" id="tranR" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon  border border-1 border-white rounded-circle p-4" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="content-1">
+      <div class="container px-3">
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <h1><i class="fas fa-globe"></i></h1>
+              <h5>Provide All Kind Of IT Services</h5>
+            </div>
+            <div class="flip-box-back">
+              <h5>Provide All Kind Of IT Services</h5>
+              <p>Whether bringing new amazing products and services to market</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <h1><i class="fas fa-cloud-upload-alt"></i></h1>
+              <h5>Solution For All IT Security</h5>
+            </div>
+            <div class="flip-box-back">
+              <h5>Solution For All IT Security</h5>
+              <p>Whether bringing new amazing products and services to market</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <h1><i class="fas fa-headset"></i></h1>
+              <h5>All IT Consultancy Solution</h5>
+            </div>
+            <div class="flip-box-back">
+             <h5>All IT Consultancy Solution</h5>
+              <p>Whether bringing new amazing products and services to market</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-box">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+                <h1><i class="fas fa-user-friends"></i></h1>
+                <h5>Provide All Kind Of IT Services</h5>
+            </div>
+            <div class="flip-box-back">
+              <h5>Provide All Kind Of IT Services</h5>
+              <p>Whether bringing new amazing products and services to market</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="content-2 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 my-5">
+            <div class="content-2-img">
+              <img src="public/img/circle.png" alt="">
+              <img src="public/img/about-img.png" alt="">
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="content-2-text my-2">
+              <h5>30 YEARS OF EXPERIENCE</h5>
+              <input type="range">
+              <h2>Preparing For Your Success
+                Provide Best IT Solutions.</h2>
+              <p>We are privileged to work with hundred future-thinking awesome businesses including many of the world’s top hardware</p>
+              <span>
+                <i class="fas fa-cog"></i>
+                <div>
+                  <h5 style="color: black;"> Warranty Management</h5>
+                  <p>Morem Ipsum is simply dummy text of the printing and pepesetting found.</p>
+                </div>
+              </span>
+              <span>
+                <i class="fas fa-desktop"></i>
+                <div>
+                  <h5 style="color: black;"> Quality Control System</h5> 
+                  <p>Morem Ipsum is simply dummy text of the printing and pepesetting found.</p>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-3 justify-content-center align-items-center d-flex py-5">
+      <div class="bg-img ">
+        <div class="container text-center text-white">
+          <h5>S E R V I C E S</h5>
+          <h2>Provide Exclusive Services</h2>
+          <input style="font-size: large; cursor: pointer;" type="range">
+          <div class="row">
+            <div class="col-lg-4"><div class="content3-item m-3"><h1><i class="fas fa-volume-up"></i></h1><h5>Marketing Strategy</h5><p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p></div></div>           
+            <div class="col-lg-4"><div class="content3-item m-3"><h1><i class="fas fa-mug-hot"></i></h1><h5>Interior Design</h5><p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p></div></div>        
+            <div class="col-lg-4"><div class="content3-item m-3"><h1><i class="fas fa-expand"></i></h1><h5>Digital Services</h5><p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p></div></div>       
+          </div>
+          <div class="row">
+            <div class="col-lg-4"><div class="content3-item m-3"><h1><i class="fas fa-briefcase"></i></h1><h5>Product Selling</h5><p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p></div></div>
+            <div class="col-lg-4"><div class="content3-item m-3"><h1><i class="fas fa-pencil-alt"></i></h1><h5>Product Design</h5><p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p></div></div>
+            <div class="col-lg-4"><div class="content3-item m-3"><h1><i class="fab fa-skype"></i></h1><h5>Social Marketing </h5><p>Porem asum molor sit amet, consectetur adipiscing do miusmod tempor.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-4">
+      <div class="bg-content4">
+          <div class="container py-5">
+            <div class="content4-top d-flex">
+              <div class="content4-text">
+                <h5>T E A M M E M B E R</h5>
+                <h1>Our Awesome Creative</h1>
+                  <h1>Team Member</h1>
+                <input type="range" style="cursor: pointer;">
+              </div>
+              <button class="btn text-white ms-auto my-auto d-none d-lg-block d-sm-block">Join Out Team</button>
+            </div>
+            <div class="content4-img pt-5 d-xl-none">
+              <div class="row text-center">
+                <div class="col-lg-6 ">
+                  <div class="profile m-auto">
+                    <img src="public/img/team4.jpg" alt="">
+                    <h4>David Malaan</h4>
+                    <p>CEO</p>
+                  </div>                 
+                </div>
+                <div class="col-lg-6">
+                  <div class="profile m-auto">
+                    <img src="public/img/team5.jpg" alt="">
+                    <h4>Andres Jhohne</h4>
+                    <p>DIRECTOR</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="profile m-auto">
+                    <img src="public/img/team6.jpg" alt="">
+                    <h4>Michel Balak</h4>
+                    <p>FOUNDER</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="profile m-auto">
+                    <img src="public/img/team7.jpg" alt="">
+                    <h4>Jemes Rodrigez</h4>
+                    <p>MANAGER</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content4-img pt-5 d-flex justify-content-center align-items-center content-4-desktop">
+              <div class="profile">
+                <img src="public/img/team4.jpg" alt="">
+                <h4>David Malaan</h4>
+                <p>CEO</p>
+              </div>
+              <div class="profile">
+                <img src="public/img/team5.jpg" alt="">
+                <h4>Andres Jhohne</h4>
+                <p>DIRECTOR</p>
+              </div>
+              <div class="profile">
+                <img src="public/img/team6.jpg" alt="">
+                <h4>Michel Balak</h4>
+                <p>FOUNDER</p>
+              </div>
+              <div class="profile">
+                <img src="public/img/team7.jpg" alt="">
+                <h4>Jemes Rodrigez</h4>
+                <p>MANAGER</p>
+              </div>
+            </div>
+          </div>
+          <div class="circle2">
+            <img src="public/img/circle.png" alt="">
+          </div>
+      </div>
+    </div>
+    <div class="content-5 d-flex justify-content-center align-items-center">
+      <div class="text-content5 text-center">
+        <h5>FEATURES CASE</h5>
+        <h2>Our Latest Case Study</h2>
+        <h2>For Your Business</h2>
+        <input type="range" style="cursor: pointer;">
+      </div>
+    </div>
+    <div class="content-6">
+      <div class="container-fluid text-center p-0">
+        <div class="row mx-auto my-auto justify-content-center">
+            <div id="recipeCarousel" class="carousel slide ct6 p-0 m-0" data-bs-touch="true"
+             data-bs-interval="false" data-bs-ride="carousel" >
+                <div class="carousel-inner content6-slider" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="public/img/case1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                  <img src="public/img/case2.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                  <img src="public/img/case3.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                  <img src="public/img/case4.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                  <img src="public/img/case5.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                  <img src="public/img/case7.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut visually-hidden" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut visually-hidden" href="#recipeCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-7 text-center">
+      <button class="rounded-pill choosing-7" disabled></button>
+      <button class="rounded-pill notchoose-7"></button>
+    </div>
+    <div class="content-8 text-center">
+      <h5>PROCESS</h5>
+      <h2>Our Working Process</h2>
+      <input type="range" style="cursor: pointer;">
+      <div class="container my-5">
+        <div class="row ct8">
+          <div class="col-lg-4">
+            <div class="number-shadow">1</div>
+            <div class="ct8-text">
+              <h4>Select A Project</h4>
+              <p>We have the technology and industry expertise to develop solutions that can connect people and businesses across variety of mobile devices.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="number-shadow">2</div>
+            <div class="ct8-text">
+              <h4>Project Analysis</h4>
+              <p>We have the technology and industry expertise to develop solutions that can connect people and businesses across variety of mobile devices.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="number-shadow">3</div>
+            <div class="ct8-text">
+              <h4>Deliver Result</h4>
+              <p>We have the technology and industry expertise to develop solutions that can connect people and businesses across variety of mobile devices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6"></div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="container-lg pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul id="style-list">
+                      <h3><a href="#top"><img src="public/img/logo2.png" alt=""></a></h3>
+                      <li>
+                        <p >Condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus.</p>
+                      </li>
+                      <li>
+                        <a id="Social-icon" href="">Follow Us</a>
+                        <a id="Social-icon" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a id="Social-icon" href="" ><i class="fab fa-twitter"></i></a></a>
+                        <a id="Social-icon" href="" ><i class="fab fa-linkedin-in"></i></a>
+                      </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                  <ul id="style-list">
+                    <h3>Our Services</h3>
+                    <li><span>-</span><a id="a1" href="#top">Interior Design</a></li>
+                    <li><span>-</span><a id="a1" href="#top">Marketing Strategy</a></li>
+                    <li><span>-</span><a id="a1" href="#top">Digital Services</a></li>
+                    <li><span>-</span><a id="a1" href="#top">Product Selling</a></li>
+                    <li><span>-</span><a id="a1" href="#top">Product Design</a></li>
+                    <li><span>-</span><a id="a1" href="#top">Social Marketing</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <ul id="style-list">
+                    <h3>Company Address</h3>
+                    <li><p>Porem awesome dolor sitework amet, consetur acing elit, sed do eiusmod ligal</p></li>
+                    <li><p><span style="font-weight: 600;">Address:</span>54/1 New dhas sorini Asut, Melbord Austria.</p></li>
+                    <li><p><span style="font-weight: 600;">Phone:</span> 54786547521</p></li>
+                    <li><p><span style="font-weight: 600;">Email:</span> demo@example.com</p></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <ul id="style-list">
+                    <h3>Popular Posts</h3>
+                        <li>
+                            <div class="someaw d-flex">
+                                <a href="#"><img src="public/img/f.jpg" alt=""></a>
+                                <a id="a1" href="#" class="px-1"><p>Tiktok Illegally collecting data sharing<br></a><span style="font-size: small;">December 4, 2018</span></p>
+                            </div>
+                        </li>
+                        <hr>
+                        <li>
+                            <div class="someaw d-flex">
+                                <a href="#"><img src="public/img/f.jpg" alt=""></a>
+                                <a id="a1" href="#" class="px-1"><p>Tiktok Illegally collecting data sharing<br></a><span style="font-size: small;">December 4, 2018</span></p>
+                        </li>
+                  </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row d-lg-none text-center">
+              <p>&copy;Nguyễn Thái Sơn 20211tt0615</p>
+              <p><a href="#" id="a1" class="px-3">Terms & Condition</a></p>
+              <p><a href="#" id="a1" class="px-3">Privacy Policy</a></p>
+              <p><a href="#" id="a1" class="px-3">Contact Us</a></p> 
+            </div>
+            <div class="row ">
+                <div class="col-lg-6 d-none d-lg-block">
+                  &copy;Nguyễn Thái Sơn 20211tt0615
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                  <p>
+                    <a href="#" id="a1" class="px-3">Terms & Condition</a>
+                    <a href="#" id="a1" class="px-3">Privacy Policy</a>
+                    <a href="#" id="a1" class="px-3">Contact Us</a>
+                  </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="public/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

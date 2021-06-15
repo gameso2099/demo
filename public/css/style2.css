@@ -1,0 +1,81 @@
+/* CONTENT-5 */
+.content-5{
+    min-height: 287px;
+}
+.content-5 h5{
+    color: #0c5adb;
+    letter-spacing: 5px;
+}
+/* CONTENT-6 */
+.content-6{
+    height: auto;
+}
+.carousel-indicators button{
+    height: 5px !important;
+    border-radius: 11px !important;
+    position: absolute !important;
+    bottom: 0 !important;
+}
+/* CONTENT-7 */
+.content-7{
+    height: 139px;
+}
+.content-7 button{
+    transition: all 0.25s linear;
+    height: 5px;
+    border: none;
+}
+.choosing-7{
+    width: 30px;
+    background-color: #0c5adb;
+}
+.notchoose-7{
+    width: 20px;
+    background-color:#bfcadc;
+}
+/* CONTENT-8 */
+.content-8{
+    min-height: 539px;
+}
+.content-8 h5{
+    color: #0c5adb;
+    letter-spacing: 5px;
+}
+.ct8 .col-lg-4{
+    margin-top: 15px;
+}
+.col-lg-4 .number-shadow{
+    border-radius: 50%;
+    height: 50px;
+    font-weight: 500;
+    width: 50px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #0c5adb;
+    margin: auto;
+    transition: all .25s linear;
+    box-shadow:
+    0 0 0 10px hsla(221, 100%, 50%, 0.432),
+    0 0 0 20px hsla(221, 100%, 49%, 0.288);
+}
+.ct8-text p{
+    color: #686868;
+}
+.ct8-text{
+    padding-top: 50px;
+}
+#scale{
+    box-shadow:
+    0 0 0 15px hsla(221, 100%, 50%, 0.432),
+    0 0 0 30px hsla(221, 100%, 49%, 0.288) !important;
+}
+/* content-9 */
+.content-9 {
+    height: 523px;
+    background: linear-gradient(#0c5bdb, #0c5adb), url(../img/call-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
